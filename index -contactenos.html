@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contactenos</title>
+</head>
+<body>
+  <style>
+  #encabezado {width: 1523;
+  height: 60;
+  float: left;}
+</style>
+</body>
+
+<div id="encabezado"> <a class="navbar-brand mx-auto" href="#">
+  <a href="index.html"> <img src="img/logo correjido_Mesa de trabajo 1.png" alt="Logo" style="max-height: 50px;"> <!-- Ajusta el tamaño del logo si es necesario -->
+</a>
+<section id="contacto" style="background: linear-gradient(135deg, #1f1f1f, #3a3a3a); color: #fff; padding: 5rem 1rem; font-family: 'Verdana', sans-serif;">
+  <div style="max-width: 1000px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: center;"> </div>
+   
+    <!-- Bloque de mensaje emocional -->
+     
+    <div>
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">¿Nos quieres hablar?</h2>
+      <p style="font-size: 1.1rem; line-height: 1.6;">
+        Nosotras no solo vestimos ropa, tejemos memorias. Si tienes algo que contar, compartir o proponer, este espacio es tuyo.
+        En **Laurel** escuchamos con respeto, con atención y con alma.
+      </p>
+      <div style="margin-top: 2rem;">
+        <p><strong>📍 Barrio Laureles, Medellín</strong></p>
+        <p><strong>📧 contacto@laurelresiste.com</strong></p>
+        <p><strong>📱 +573147958826</strong></p>
+      </div>
+    </div>
+
+    <!-- Formulario creativo en caja oscura -->
+    <div style="background-color: #2b2b2b; padding: 2rem; border-radius: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.3);">
+      <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: #42573d;">Escríbenos directo</h3>
+      <form action="enviar_formulario.php" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
+        <input type="text" name="nombre" placeholder="Tu nombre" required style="padding: 0.8rem; border: none; border-radius: 0.5rem; background-color: #444; color: #fff;">
+        <input type="email" name="email" placeholder="Tu correo" required style="padding: 0.8rem; border: none; border-radius: 0.5rem; background-color: #444; color: #fff;">
+        <textarea name="mensaje" rows="4" placeholder="Cuéntanos lo que quieras..." required style="padding: 0.8rem; border: none; border-radius: 0.5rem; background-color: #444; color: #fff;"></textarea>
+        <button type="submit" style="background-color: #42573d; color: #1f1f1f; font-weight: bold; padding: 0.8rem; border: none; border-radius: 0.5rem; cursor: pointer;">
+          Enviar mensaje
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+</html>
